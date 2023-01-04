@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 995px) {
   :root {
-    --big-fonts-size: 2.75rem;
+    --big-font-size: 2.75rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
