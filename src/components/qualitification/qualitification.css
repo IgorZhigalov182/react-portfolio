@@ -1,5 +1,6 @@
 .qualification__container {
     max-width: 768px;
+    height: 100px;
 }
 
 .qualification__tabs {
@@ -16,7 +17,7 @@
     cursor: pointer;
 }
 
-.qualification__button {
+.qualification__button:hover {
     color: var(--title-color-dark);
 }
 
@@ -29,7 +30,7 @@
     color: var(--title-color-dark);
 }
 
-.qualification__section {
+.qualification__sections {
     display: grid;
     grid-template-columns: 0.5fr;
     justify-content: center;
@@ -39,7 +40,7 @@
     display: none;
 }
 
-.qualification__contnent-active {
+.qualification__content-active {
     display: block;
 }
 
@@ -70,4 +71,12 @@
     height: 13px;
     background-color: var(--text-color);
     border-radius: 50%;
+}
+
+.qualification__line {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--text-color);
+    transform: translate(6px, -7px);
 }

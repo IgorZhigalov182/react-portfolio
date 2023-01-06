@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './qualitification.css'
 
 const Qulitification = () => {
+  const [toggleState, setToggleState] = useState(1)
+
+  const toggleTab = (index) => {
+    setToggleState(index);
+  }
+
   return (
     <section className='qualification section'>
       <h2 className='section__title'>Qualification</h2>
@@ -9,7 +15,7 @@ const Qulitification = () => {
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
-          <div className="qualification__button qualification__active button--flex">
+          <div className={toggleState === 1}>
             <i className="uil uil-graduation-cap qualification__icon"></i>
             Education
           </div>
