@@ -14,31 +14,36 @@ export const projectsData = [
         id: 1,
         image: Work1,
         title: 'Web makaka',
-        category: 'app'
+        category: 'app',
+        link: 'https://github.com/IgorZhigalov182/react-portfolio',
     },
     {
         id: 2,
         image: Work2,
         title: 'Web makaka',
-        category: 'web'
+        category: 'web',
+        link: '#'
     },
     {
         id: 3,
         image: Work3,
         title: 'Web makaka',
-        category: 'design'
+        category: 'design',
+        link: '#'
     },
     {
         id: 4,
         image: Work4,
         title: 'Web makaka',
-        category: 'web'
+        category: 'web',
+        link: '#'
     },
     {
         id: 5,
         image: Work5,
         title: 'Web makaka',
-        category: 'web'
+        category: 'web',
+        link: '#'
     },
 ];
 
