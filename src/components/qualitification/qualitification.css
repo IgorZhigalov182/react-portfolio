@@ -26,6 +26,9 @@
 }
 
 .qualification__active {
+    border: 1px solid var(--title-color-dark);
+    border-radius: 0.8rem;
+    padding: 0.25rem;
     color: var(--title-color-dark);
 }
 
